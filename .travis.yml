@@ -7,6 +7,6 @@ deploy:
     on:
         branch: master
     script: 
-        - echo test first script
-        - echo test second script
-        - npm run ci-publish
+    - echo test first script
+    - echo test second script
+    - npm run ci-publish
