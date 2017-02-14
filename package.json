@@ -1,6 +1,6 @@
 {
   "name": "@nhz.io/travis-scoped-publish",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Publishing scoped modules with public assess from travis",
   "main": "index.js",
   "repository": {
