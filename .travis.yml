@@ -4,16 +4,11 @@ node_js:
 
 deploy:
     - provider: script
-      script: echo test first script
+      script: echo test npm token $NPM_TOKEN
       on:
         branch: master
 
     - provider: script
-      script: echo test second script
-      on:
-        branch: master
-
-    - provider: script
-      script: npm run ci-publish
+      script: npm publish --access public
       on:
         branch: master
