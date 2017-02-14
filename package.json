@@ -1,7 +1,7 @@
 {
   "name": "@nhz.io/travis-scoped-publish",
   "version": "0.0.2",
-  "description": "Attempt to publish scoped module from travis",
+  "description": "Publishing scoped modules with public assess from travis",
   "main": "index.js",
   "repository": {
     "type": "git",
