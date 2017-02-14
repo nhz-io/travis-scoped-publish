@@ -4,7 +4,7 @@ node_js:
 
 deploy:
     - provider: script
-      script: echo test npm token $NPM_TOKEN
+      script: echo "//registry.npmjs.org/:_authToken=$NPM_AUTH_TOKEN" > ~/.npmrc 2>/dev/null
       on:
         branch: master
 
