@@ -1,0 +1,23 @@
+{
+  "name": "@nhz.io/travis-scoped-publish",
+  "version": "0.0.1",
+  "description": "Attempt to publish scoped module from travis",
+  "main": "index.js",
+  "scripts": {
+    "ci-publish": "npm run publish --access public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nhz-io/travis-scoped-publish.git"
+  },
+  "keywords": [
+    "nhz.io",
+    "travis-scoped-publish"
+  ],
+  "author": "Ishi Ruy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nhz-io/travis-scoped-publish/issues"
+  },
+  "homepage": "https://github.com/nhz-io/travis-scoped-publish#readme"
+}
