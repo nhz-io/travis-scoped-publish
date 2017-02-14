@@ -3,9 +3,6 @@
   "version": "0.0.1",
   "description": "Attempt to publish scoped module from travis",
   "main": "index.js",
-  "scripts": {
-    "ci-publish": "npm publish --access public"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/nhz-io/travis-scoped-publish.git"
