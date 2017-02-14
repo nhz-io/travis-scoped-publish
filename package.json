@@ -4,7 +4,7 @@
   "description": "Attempt to publish scoped module from travis",
   "main": "index.js",
   "scripts": {
-    "ci-publish": "npm run publish --access public"
+    "ci-publish": "npm publish --access public"
   },
   "repository": {
     "type": "git",
