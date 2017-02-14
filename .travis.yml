@@ -6,11 +6,9 @@ deploy:
     - provider: script
       script: echo "//registry.npmjs.org/:_authToken=$NPM_AUTH_TOKEN" > ~/.npmrc 2>/dev/null
       on:
-        branch: master
         tags: true
 
     - provider: script
       script: npm publish --access public
       on:
-        branch: master
         tags: true
