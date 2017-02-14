@@ -3,10 +3,17 @@ node_js:
 - '6'
 
 deploy:
-    provider: script
-    on:
+    - provider: script
+      script: echo test first script
+      on:
         branch: master
-    script: 
-    - echo test first script
-    - echo test second script
-    - npm run ci-publish
+
+    - provider: script
+      script: echo test second script
+      on:
+        branch: master
+
+    - provider: script
+      script: npm run ci-publish
+      on:
+        branch: master
